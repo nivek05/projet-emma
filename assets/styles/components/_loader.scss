@@ -1,0 +1,15 @@
+.icon {
+  
+  fill: orange;
+  transform-origin: center center;
+  animation: spin 0.5s linear infinite;
+  margin: auto;
+  padding: auto;
+  
+}
+
+@keyframes spin { 
+  to {
+    transform: rotate(360deg); 
+  }
+}

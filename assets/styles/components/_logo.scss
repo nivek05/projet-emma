@@ -1,0 +1,17 @@
+.logo {
+  position: absolute;
+  font-size: 1.2rem;
+  user-select: none;
+  border: 1px solid red;
+  
+  &:after {
+    content: "";
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: -12px;
+    z-index: -1;
+  }
+}

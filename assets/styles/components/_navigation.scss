@@ -1,0 +1,45 @@
+#navbar {
+    //overflow: hidden;
+    //transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    top: 0;
+    z-index: 99;
+    //background-color: rgba(0, 0, 0,0.3);
+    background-color: rgba(52, 122, 134, 0.8);
+    padding: 0;
+    margin: 0;
+
+    .active{
+        color: rgb(167, 165, 85);
+        text-decoration: none;
+        
+    }   
+    .nav-item {
+        display: inline;
+        margin-left: 2rem;
+        color: rgb(255, 255, 255);
+      }
+      
+      .nav-item:hover {
+        color: rgb(167, 165, 85);
+        cursor: pointer;
+      }
+      
+    
+}
+
+//Menu navbar
+.dropdown-menu {
+    background-color: rgb(11, 133, 133);
+    .dropdown-item {
+        background-color: rgb(11, 133, 133);
+        color: rgb(255, 255, 255);
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(11, 133, 133);
+        }
+    }
+}
+
